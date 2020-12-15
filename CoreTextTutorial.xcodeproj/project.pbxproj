@@ -14,6 +14,7 @@
 		52287D632588C1A9000AD963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52287D622588C1A9000AD963 /* Assets.xcassets */; };
 		52287D662588C1A9000AD963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52287D642588C1A9000AD963 /* LaunchScreen.storyboard */; };
 		52287D6F2588C20D000AD963 /* CTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52287D6E2588C20D000AD963 /* CTView.swift */; };
+		52287D732588C883000AD963 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 52287D722588C883000AD963 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		52287D652588C1A9000AD963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52287D672588C1A9000AD963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52287D6E2588C20D000AD963 /* CTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTView.swift; sourceTree = "<group>"; };
+		52287D722588C883000AD963 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		52287D4D2588C1A8000AD963 = {
 			isa = PBXGroup;
 			children = (
+				52287D722588C883000AD963 /* .gitignore */,
 				52287D582588C1A8000AD963 /* CoreTextTutorial */,
 				52287D572588C1A8000AD963 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52287D732588C883000AD963 /* .gitignore in Resources */,
 				52287D662588C1A9000AD963 /* LaunchScreen.storyboard in Resources */,
 				52287D632588C1A9000AD963 /* Assets.xcassets in Resources */,
 				52287D612588C1A8000AD963 /* Main.storyboard in Resources */,
