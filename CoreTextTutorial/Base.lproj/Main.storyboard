@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreTextTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RLm-rD-MbT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ynG-Gw-Meg" userLabel="ContetntView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2700"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3DU-8U-lgF" customClass="CTView" customModule="CoreTextTutorial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="2700"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2700" id="ctO-4k-SvA"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="3DU-8U-lgF" secondAttribute="bottom" id="4HP-OG-TBK"/>
+                                            <constraint firstItem="3DU-8U-lgF" firstAttribute="leading" secondItem="ynG-Gw-Meg" secondAttribute="leading" id="Ltl-CW-MKi"/>
+                                            <constraint firstItem="3DU-8U-lgF" firstAttribute="top" secondItem="ynG-Gw-Meg" secondAttribute="top" id="Oxo-fx-0iM"/>
+                                            <constraint firstAttribute="trailing" secondItem="3DU-8U-lgF" secondAttribute="trailing" id="Yz7-4w-nl7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ynG-Gw-Meg" firstAttribute="leading" secondItem="9bG-Us-p1d" secondAttribute="leading" id="RSl-J7-her"/>
+                                    <constraint firstItem="ynG-Gw-Meg" firstAttribute="bottom" secondItem="9bG-Us-p1d" secondAttribute="bottom" id="s3j-dO-dkf"/>
+                                    <constraint firstItem="ynG-Gw-Meg" firstAttribute="width" secondItem="vHM-ae-g0F" secondAttribute="width" id="tX5-Hw-aCp"/>
+                                    <constraint firstItem="ynG-Gw-Meg" firstAttribute="top" secondItem="9bG-Us-p1d" secondAttribute="top" id="yka-mF-qY2"/>
+                                    <constraint firstItem="ynG-Gw-Meg" firstAttribute="trailing" secondItem="9bG-Us-p1d" secondAttribute="trailing" id="ypd-fd-KbK"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="9bG-Us-p1d"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="vHM-ae-g0F"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RLm-rD-MbT" secondAttribute="trailing" id="WR2-CY-ToF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RLm-rD-MbT" secondAttribute="bottom" id="Yhl-8D-oW7"/>
+                            <constraint firstItem="RLm-rD-MbT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="vJi-7G-8HV"/>
+                            <constraint firstItem="RLm-rD-MbT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y9O-cM-Ln7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
